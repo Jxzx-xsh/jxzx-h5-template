@@ -1,10 +1,15 @@
 <template>
   <div id="app">
+    <div class="text">1231</div>
+    <van-button type="primary">主要按钮</van-button>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+.text {
+  font-size: 12px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
